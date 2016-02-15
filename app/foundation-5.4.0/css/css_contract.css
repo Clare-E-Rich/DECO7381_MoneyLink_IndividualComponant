@@ -1,0 +1,109 @@
+.createContract label {
+	font-weight: bold;
+	font-size: 1em;
+	text-align: right;
+}
+
+.createContract legend {
+	font-size: 1.7em;
+	font-weight: bold;
+}
+
+.createContract h2 {
+	font-size: 1.4em;
+	font-weight: bold;
+}
+.contractRadio label {
+	font-weight: normal;
+	text-align: left;
+}
+
+.contractButton input[type=submit] {
+	padding: 0.875rem 1.75rem 0.9375rem 1.75rem;
+	font-size: 0.8125rem;
+	background-color: #00B800;
+	border: 3px solid white;
+	color: white;
+}
+
+.contractButton input[type=button] {
+	padding: 0.875rem 1.75rem 0.9375rem 1.75rem;
+	font-size: 0.8125rem;
+	background-color: #00B800;
+	border: 3px solid white;
+	color: white;
+}
+
+.printContract h1 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+
+
+.printContract h2 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 1.6em;
+}
+
+.printContract h3 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+}
+
+.printContract article {
+	margin-top: 2em;
+}
+
+.printIndent {
+	margin-left: 2em;
+}
+
+.printContract ul {
+	margin-left: 2em;
+	list-style: none;
+
+}
+
+.contractLabel {
+	display: inline-block;
+	width: 200px;
+	font-weight: bold;
+}
+
+.signature {
+	width: 50%;
+	border-top: 1px solid black;
+	margin-top: 4em;
+}
+
+.contractCheck label {
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: right;
+}
+
+@media print {
+	.remove_for_print {
+		display: none;
+	}
+
+	#main_tab.tabs-content {
+		border: 0px solid #00B800;
+		width: 100%;
+	}
+
+	.panel.callout {
+		border-width: 0px;
+		margin-bottom: 0rem;
+		padding: .25rem;
+		background: #ffffff;
+	}
+
+	body {
+		font-size: 10px;
+	}
+}
+
